@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="Windows-1251">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Живые истории - Digital-талисман</title>
-    <meta name="description" content="Собрание теплых воспоминаний о дошкольном образовании Мегино-Кангаласского улуса">
+    <title>Г†ГЁГўГ»ГҐ ГЁГ±ГІГ®Г°ГЁГЁ - Digital-ГІГ Г«ГЁГ±Г¬Г Г­</title>
+    <meta name="description" content="Г‘Г®ГЎГ°Г Г­ГЁГҐ ГІГҐГЇГ«Г»Гµ ГўГ®Г±ГЇГ®Г¬ГЁГ­Г Г­ГЁГ© Г® Г¤Г®ГёГЄГ®Г«ГјГ­Г®Г¬ Г®ГЎГ°Г Г§Г®ГўГ Г­ГЁГЁ ГЊГҐГЈГЁГ­Г®-ГЉГ Г­ГЈГ Г«Г Г±Г±ГЄГ®ГЈГ® ГіГ«ГіГ±Г ">
     
-    <!-- PWA мета-теги -->
+    <!-- PWA Г¬ГҐГІГ -ГІГҐГЈГЁ -->
     <link rel="manifest" href="../manifest.json">
     <meta name="theme-color" content="#2c3e50">
     
@@ -15,98 +15,98 @@
     <link rel="stylesheet" href="../css/stories.css">
     <link rel="stylesheet" href="../css/mascot.css">
     
-    <!-- Шрифты -->
+    <!-- ГГ°ГЁГґГІГ» -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto+Slab:wght@300;400;700&display=swap&subset=cyrillic" rel="stylesheet">
     
-    <!-- Иконки -->
+    <!-- Г€ГЄГ®Г­ГЄГЁ -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <div class="app-container">
-        <!-- Шапка -->
+        <!-- ГГ ГЇГЄГ  -->
         <header class="app-header">
             <div class="header-content">
                 <a href="../index.html" class="back-button">
-                    <i class="fas fa-arrow-left"></i> На главную
+                    <i class="fas fa-arrow-left"></i> ГЌГ  ГЈГ«Г ГўГ­ГіГѕ
                 </a>
-                <h1>Живые истории</h1>
-                <p>Теплые воспоминания о детских садах разных лет</p>
+                <h1>Г†ГЁГўГ»ГҐ ГЁГ±ГІГ®Г°ГЁГЁ</h1>
+                <p>Г’ГҐГЇГ«Г»ГҐ ГўГ®Г±ГЇГ®Г¬ГЁГ­Г Г­ГЁГї Г® Г¤ГҐГІГ±ГЄГЁГµ Г±Г Г¤Г Гµ Г°Г Г§Г­Г»Гµ Г«ГҐГІ</p>
             </div>
             <div class="header-logo">
-                <img src="../images/ui/logo-100-years.png" alt="100 лет дошкольного образования">
+                <img src="../images/ui/logo-100-years.png" alt="100 Г«ГҐГІ Г¤Г®ГёГЄГ®Г«ГјГ­Г®ГЈГ® Г®ГЎГ°Г Г§Г®ГўГ Г­ГЁГї">
             </div>
         </header>
 
-        <!-- Контейнер для талисмана -->
+        <!-- ГЉГ®Г­ГІГҐГ©Г­ГҐГ° Г¤Г«Гї ГІГ Г«ГЁГ±Г¬Г Г­Г  -->
         <div id="mascot-container" class="mascot-container">
             <div class="mascot" id="digital-mascot">
-                <img src="../images/mascot/horse-idle.png" alt="Талисман-конь" id="mascot-image">
+                <img src="../images/mascot/horse-idle.png" alt="Г’Г Г«ГЁГ±Г¬Г Г­-ГЄГ®Г­Гј" id="mascot-image">
                 <div class="speech-bubble" id="mascot-speech">
-                    Читайте истории и делитесь своими!
+                    Г—ГЁГІГ Г©ГІГҐ ГЁГ±ГІГ®Г°ГЁГЁ ГЁ Г¤ГҐГ«ГЁГІГҐГ±Гј Г±ГўГ®ГЁГ¬ГЁ!
                 </div>
             </div>
         </div>
 
-        <!-- Основной контент -->
+        <!-- ГЋГ±Г­Г®ГўГ­Г®Г© ГЄГ®Г­ГІГҐГ­ГІ -->
         <main class="main-content stories-page">
-            <!-- Поиск и фильтры -->
+            <!-- ГЏГ®ГЁГ±ГЄ ГЁ ГґГЁГ«ГјГІГ°Г» -->
             <section class="stories-controls">
                 <div class="search-container">
                     <div class="search-box">
                         <i class="fas fa-search"></i>
-                        <input type="text" id="story-search" placeholder="Поиск по историям...">
+                        <input type="text" id="story-search" placeholder="ГЏГ®ГЁГ±ГЄ ГЇГ® ГЁГ±ГІГ®Г°ГЁГїГ¬...">
                         <button id="clear-search" class="clear-btn">
                             <i class="fas fa-times"></i>
                         </button>
                     </div>
                     <button id="add-story-btn" class="btn btn-accent">
-                        <i class="fas fa-plus"></i> Добавить историю
+                        <i class="fas fa-plus"></i> Г„Г®ГЎГ ГўГЁГІГј ГЁГ±ГІГ®Г°ГЁГѕ
                     </button>
                 </div>
 
                 <div class="filters-container">
                     <div class="filter-group">
-                        <label for="year-filter"><i class="fas fa-calendar-alt"></i> Год:</label>
+                        <label for="year-filter"><i class="fas fa-calendar-alt"></i> ГѓГ®Г¤:</label>
                         <select id="year-filter">
-                            <option value="all">Все годы</option>
-                            <option value="1960">1960-е и ранее</option>
-                            <option value="1970">1970-е</option>
-                            <option value="1980">1980-е</option>
-                            <option value="1990">1990-е</option>
-                            <option value="2000">2000-е</option>
-                            <option value="2010">2010-е</option>
-                            <option value="2020">2020-е</option>
+                            <option value="all">Г‚Г±ГҐ ГЈГ®Г¤Г»</option>
+                            <option value="1960">1960-ГҐ ГЁ Г°Г Г­ГҐГҐ</option>
+                            <option value="1970">1970-ГҐ</option>
+                            <option value="1980">1980-ГҐ</option>
+                            <option value="1990">1990-ГҐ</option>
+                            <option value="2000">2000-ГҐ</option>
+                            <option value="2010">2010-ГҐ</option>
+                            <option value="2020">2020-ГҐ</option>
                         </select>
                     </div>
 
                     <div class="filter-group">
-                        <label for="role-filter"><i class="fas fa-user-tag"></i> Роль:</label>
+                        <label for="role-filter"><i class="fas fa-user-tag"></i> ГђГ®Г«Гј:</label>
                         <select id="role-filter">
-                            <option value="all">Все</option>
-                            <option value="graduate">Выпускник</option>
-                            <option value="parent">Родитель</option>
-                            <option value="teacher">Воспитатель</option>
-                            <option value="veteran">Ветеран</option>
+                            <option value="all">Г‚Г±ГҐ</option>
+                            <option value="graduate">Г‚Г»ГЇГіГ±ГЄГ­ГЁГЄ</option>
+                            <option value="parent">ГђГ®Г¤ГЁГІГҐГ«Гј</option>
+                            <option value="teacher">Г‚Г®Г±ГЇГЁГІГ ГІГҐГ«Гј</option>
+                            <option value="veteran">Г‚ГҐГІГҐГ°Г Г­</option>
                         </select>
                     </div>
 
                     <div class="filter-group">
-                        <label for="sort-filter"><i class="fas fa-sort"></i> Сортировка:</label>
+                        <label for="sort-filter"><i class="fas fa-sort"></i> Г‘Г®Г°ГІГЁГ°Г®ГўГЄГ :</label>
                         <select id="sort-filter">
-                            <option value="newest">Сначала новые</option>
-                            <option value="oldest">Сначала старые</option>
-                            <option value="popular">Самые популярные</option>
-                            <option value="random">Случайные</option>
+                            <option value="newest">Г‘Г­Г Г·Г Г«Г  Г­Г®ГўГ»ГҐ</option>
+                            <option value="oldest">Г‘Г­Г Г·Г Г«Г  Г±ГІГ Г°Г»ГҐ</option>
+                            <option value="popular">Г‘Г Г¬Г»ГҐ ГЇГ®ГЇГіГ«ГїГ°Г­Г»ГҐ</option>
+                            <option value="random">Г‘Г«ГіГ·Г Г©Г­Г»ГҐ</option>
                         </select>
                     </div>
                 </div>
 
                 <div class="filter-tags" id="active-filters">
-                    <!-- Активные фильтры будут добавляться сюда -->
+                    <!-- ГЂГЄГІГЁГўГ­Г»ГҐ ГґГЁГ«ГјГІГ°Г» ГЎГіГ¤ГіГІ Г¤Г®ГЎГ ГўГ«ГїГІГјГ±Гї Г±ГѕГ¤Г  -->
                 </div>
             </section>
 
-            <!-- Статистика -->
+            <!-- Г‘ГІГ ГІГЁГ±ГІГЁГЄГ  -->
             <section class="stories-stats">
                 <div class="stats-cards">
                     <div class="stat-card">
@@ -115,7 +115,7 @@
                         </div>
                         <div class="stat-info">
                             <span class="stat-number" id="total-stories">0</span>
-                            <span class="stat-label">всего историй</span>
+                            <span class="stat-label">ГўГ±ГҐГЈГ® ГЁГ±ГІГ®Г°ГЁГ©</span>
                         </div>
                     </div>
                     
@@ -125,7 +125,7 @@
                         </div>
                         <div class="stat-info">
                             <span class="stat-number" id="total-authors">0</span>
-                            <span class="stat-label">авторов</span>
+                            <span class="stat-label">Г ГўГІГ®Г°Г®Гў</span>
                         </div>
                     </div>
                     
@@ -135,7 +135,7 @@
                         </div>
                         <div class="stat-info">
                             <span class="stat-number" id="total-kindergartens">0</span>
-                            <span class="stat-label">детских садов</span>
+                            <span class="stat-label">Г¤ГҐГІГ±ГЄГЁГµ Г±Г Г¤Г®Гў</span>
                         </div>
                     </div>
                     
@@ -144,82 +144,82 @@
                             <i class="fas fa-history"></i>
                         </div>
                         <div class="stat-info">
-                            <span class="stat-number" id="oldest-year">—</span>
-                            <span class="stat-label">самое раннее воспоминание</span>
+                            <span class="stat-number" id="oldest-year">вЂ”</span>
+                            <span class="stat-label">Г±Г Г¬Г®ГҐ Г°Г Г­Г­ГҐГҐ ГўГ®Г±ГЇГ®Г¬ГЁГ­Г Г­ГЁГҐ</span>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <!-- Сетка историй -->
+            <!-- Г‘ГҐГІГЄГ  ГЁГ±ГІГ®Г°ГЁГ© -->
             <section class="stories-grid-container">
                 <div class="stories-header">
-                    <h2><i class="fas fa-book-reader"></i> Воспоминания поколений</h2>
+                    <h2><i class="fas fa-book-reader"></i> Г‚Г®Г±ГЇГ®Г¬ГЁГ­Г Г­ГЁГї ГЇГ®ГЄГ®Г«ГҐГ­ГЁГ©</h2>
                     <div class="view-toggle">
                         <button id="grid-view" class="view-btn active">
-                            <i class="fas fa-th-large"></i> Сетка
+                            <i class="fas fa-th-large"></i> Г‘ГҐГІГЄГ 
                         </button>
                         <button id="list-view" class="view-btn">
-                            <i class="fas fa-list"></i> Список
+                            <i class="fas fa-list"></i> Г‘ГЇГЁГ±Г®ГЄ
                         </button>
                     </div>
                 </div>
 
-                <!-- Сообщение при отсутствии историй -->
+                <!-- Г‘Г®Г®ГЎГ№ГҐГ­ГЁГҐ ГЇГ°ГЁ Г®ГІГ±ГіГІГ±ГІГўГЁГЁ ГЁГ±ГІГ®Г°ГЁГ© -->
                 <div id="no-stories-message" class="no-stories-message" style="display: none;">
                     <div class="empty-state">
                         <i class="fas fa-book"></i>
-                        <h3>Пока нет историй</h3>
-                        <p>Будьте первым, кто поделится воспоминаниями!</p>
+                        <h3>ГЏГ®ГЄГ  Г­ГҐГІ ГЁГ±ГІГ®Г°ГЁГ©</h3>
+                        <p>ГЃГіГ¤ГјГІГҐ ГЇГҐГ°ГўГ»Г¬, ГЄГІГ® ГЇГ®Г¤ГҐГ«ГЁГІГ±Гї ГўГ®Г±ГЇГ®Г¬ГЁГ­Г Г­ГЁГїГ¬ГЁ!</p>
                         <a href="../pages/add-story.html" class="btn btn-primary">
-                            <i class="fas fa-pen"></i> Написать историю
+                            <i class="fas fa-pen"></i> ГЌГ ГЇГЁГ±Г ГІГј ГЁГ±ГІГ®Г°ГЁГѕ
                         </a>
                     </div>
                 </div>
 
-                <!-- Сетка историй -->
+                <!-- Г‘ГҐГІГЄГ  ГЁГ±ГІГ®Г°ГЁГ© -->
                 <div class="stories-grid" id="stories-grid">
-                    <!-- Истории будут загружаться динамически -->
+                    <!-- Г€Г±ГІГ®Г°ГЁГЁ ГЎГіГ¤ГіГІ Г§Г ГЈГ°ГіГ¦Г ГІГјГ±Гї Г¤ГЁГ­Г Г¬ГЁГ·ГҐГ±ГЄГЁ -->
                     
-                    <!-- Пример истории 1 -->
-                    <article class="story-card featured" data-year="1978" data-role="graduate" data-kindergarten="Солнышко">
+                    <!-- ГЏГ°ГЁГ¬ГҐГ° ГЁГ±ГІГ®Г°ГЁГЁ 1 -->
+                    <article class="story-card featured" data-year="1978" data-role="graduate" data-kindergarten="Г‘Г®Г«Г­Г»ГёГЄГ®">
                         <div class="story-badge">
                             <span class="badge featured-badge">
-                                <i class="fas fa-star"></i> Избранное
+                                <i class="fas fa-star"></i> Г€Г§ГЎГ°Г Г­Г­Г®ГҐ
                             </span>
                             <span class="badge year-badge">1978</span>
                         </div>
                         
                         <div class="story-header">
                             <div class="author-avatar">
-                                <img src="../images/users/user1.jpg" alt="Мария Иванова">
+                                <img src="../images/users/user1.jpg" alt="ГЊГ Г°ГЁГї Г€ГўГ Г­Г®ГўГ ">
                             </div>
                             <div class="author-info">
-                                <h3 class="author-name">Мария Иванова</h3>
+                                <h3 class="author-name">ГЊГ Г°ГЁГї Г€ГўГ Г­Г®ГўГ </h3>
                                 <span class="author-role">
-                                    <i class="fas fa-graduation-cap"></i> Выпускница
+                                    <i class="fas fa-graduation-cap"></i> Г‚Г»ГЇГіГ±ГЄГ­ГЁГ¶Г 
                                 </span>
                                 <span class="story-kindergarten">
-                                    <i class="fas fa-school"></i> Д/с "Солнышко", с. Майя
+                                    <i class="fas fa-school"></i> Г„/Г± "Г‘Г®Г«Г­Г»ГёГЄГ®", Г±. ГЊГ Г©Гї
                                 </span>
                             </div>
                         </div>
                         
                         <div class="story-content">
-                            <p>Помню, как мы в садике сажали первые деревья в нашем дворе. Каждому ребенку дали по саженцу березы. Моя береза до сих пор растет у входа в садик! Каждый раз, когда прохожу мимо, вспоминаю нашу воспитательницу Анну Петровну...</p>
+                            <p>ГЏГ®Г¬Г­Гѕ, ГЄГ ГЄ Г¬Г» Гў Г±Г Г¤ГЁГЄГҐ Г±Г Г¦Г Г«ГЁ ГЇГҐГ°ГўГ»ГҐ Г¤ГҐГ°ГҐГўГјГї Гў Г­Г ГёГҐГ¬ Г¤ГўГ®Г°ГҐ. ГЉГ Г¦Г¤Г®Г¬Гі Г°ГҐГЎГҐГ­ГЄГі Г¤Г Г«ГЁ ГЇГ® Г±Г Г¦ГҐГ­Г¶Гі ГЎГҐГ°ГҐГ§Г». ГЊГ®Гї ГЎГҐГ°ГҐГ§Г  Г¤Г® Г±ГЁГµ ГЇГ®Г° Г°Г Г±ГІГҐГІ Гі ГўГµГ®Г¤Г  Гў Г±Г Г¤ГЁГЄ! ГЉГ Г¦Г¤Г»Г© Г°Г Г§, ГЄГ®ГЈГ¤Г  ГЇГ°Г®ГµГ®Г¦Гі Г¬ГЁГ¬Г®, ГўГ±ГЇГ®Г¬ГЁГ­Г Гѕ Г­Г ГёГі ГўГ®Г±ГЇГЁГІГ ГІГҐГ«ГјГ­ГЁГ¶Гі ГЂГ­Г­Гі ГЏГҐГІГ°Г®ГўГ­Гі...</p>
                             
                             <div class="story-photos">
-                                <img src="../images/stories/1978-tree.jpg" alt="Береза у детского сада" class="story-photo">
+                                <img src="../images/stories/1978-tree.jpg" alt="ГЃГҐГ°ГҐГ§Г  Гі Г¤ГҐГІГ±ГЄГ®ГЈГ® Г±Г Г¤Г " class="story-photo">
                             </div>
                         </div>
                         
                         <div class="story-footer">
                             <div class="story-meta">
                                 <span class="story-date">
-                                    <i class="far fa-calendar"></i> 15 мая 2023
+                                    <i class="far fa-calendar"></i> 15 Г¬Г Гї 2023
                                 </span>
                                 <span class="story-reading-time">
-                                    <i class="far fa-clock"></i> 2 мин чтения
+                                    <i class="far fa-clock"></i> 2 Г¬ГЁГ­ Г·ГІГҐГ­ГЁГї
                                 </span>
                             </div>
                             
@@ -237,45 +237,45 @@
                         </div>
                     </article>
 
-                    <!-- Пример истории 2 -->
-                    <article class="story-card" data-year="1995" data-role="teacher" data-kindergarten="Чэчир">
+                    <!-- ГЏГ°ГЁГ¬ГҐГ° ГЁГ±ГІГ®Г°ГЁГЁ 2 -->
+                    <article class="story-card" data-year="1995" data-role="teacher" data-kindergarten="Г—ГЅГ·ГЁГ°">
                         <div class="story-badge">
                             <span class="badge year-badge">1995</span>
                             <span class="badge role-badge">
-                                <i class="fas fa-chalkboard-teacher"></i> Воспитатель
+                                <i class="fas fa-chalkboard-teacher"></i> Г‚Г®Г±ГЇГЁГІГ ГІГҐГ«Гј
                             </span>
                         </div>
                         
                         <div class="story-header">
                             <div class="author-avatar">
-                                <div class="avatar-initials">ПС</div>
+                                <div class="avatar-initials">ГЏГ‘</div>
                             </div>
                             <div class="author-info">
-                                <h3 class="author-name">Петр Семенов</h3>
+                                <h3 class="author-name">ГЏГҐГІГ° Г‘ГҐГ¬ГҐГ­Г®Гў</h3>
                                 <span class="author-role">
-                                    <i class="fas fa-chalkboard-teacher"></i> Воспитатель
+                                    <i class="fas fa-chalkboard-teacher"></i> Г‚Г®Г±ГЇГЁГІГ ГІГҐГ«Гј
                                 </span>
                                 <span class="story-kindergarten">
-                                    <i class="fas fa-school"></i> Д/с "Чэчир", с. Майя
+                                    <i class="fas fa-school"></i> Г„/Г± "Г—ГЅГ·ГЁГ°", Г±. ГЊГ Г©Гї
                                 </span>
                             </div>
                         </div>
                         
                         <div class="story-content">
-                            <p>35 лет работаю воспитателем. Помню, как в 1995 году мы впервые организовали якутский национальный праздник "Ысыах" для детей. Дети были в национальных костюмах, учили якутские игры, пели песни на родном языке...</p>
+                            <p>35 Г«ГҐГІ Г°Г ГЎГ®ГІГ Гѕ ГўГ®Г±ГЇГЁГІГ ГІГҐГ«ГҐГ¬. ГЏГ®Г¬Г­Гѕ, ГЄГ ГЄ Гў 1995 ГЈГ®Г¤Гі Г¬Г» ГўГЇГҐГ°ГўГ»ГҐ Г®Г°ГЈГ Г­ГЁГ§Г®ГўГ Г«ГЁ ГїГЄГіГІГ±ГЄГЁГ© Г­Г Г¶ГЁГ®Г­Г Г«ГјГ­Г»Г© ГЇГ°Г Г§Г¤Г­ГЁГЄ "Г›Г±Г»Г Гµ" Г¤Г«Гї Г¤ГҐГІГҐГ©. Г„ГҐГІГЁ ГЎГ»Г«ГЁ Гў Г­Г Г¶ГЁГ®Г­Г Г«ГјГ­Г»Гµ ГЄГ®Г±ГІГѕГ¬Г Гµ, ГіГ·ГЁГ«ГЁ ГїГЄГіГІГ±ГЄГЁГҐ ГЁГЈГ°Г», ГЇГҐГ«ГЁ ГЇГҐГ±Г­ГЁ Г­Г  Г°Г®Г¤Г­Г®Г¬ ГїГ§Г»ГЄГҐ...</p>
                             
                             <blockquote class="story-quote">
-                                "Дети - как чистый лист бумаги. Что нарисуешь, то и останется."
+                                "Г„ГҐГІГЁ - ГЄГ ГЄ Г·ГЁГ±ГІГ»Г© Г«ГЁГ±ГІ ГЎГіГ¬Г ГЈГЁ. Г—ГІГ® Г­Г Г°ГЁГ±ГіГҐГёГј, ГІГ® ГЁ Г®Г±ГІГ Г­ГҐГІГ±Гї."
                             </blockquote>
                         </div>
                         
                         <div class="story-footer">
                             <div class="story-meta">
                                 <span class="story-date">
-                                    <i class="far fa-calendar"></i> 22 июня 2023
+                                    <i class="far fa-calendar"></i> 22 ГЁГѕГ­Гї 2023
                                 </span>
                                 <span class="story-reading-time">
-                                    <i class="far fa-clock"></i> 3 мин чтения
+                                    <i class="far fa-clock"></i> 3 Г¬ГЁГ­ Г·ГІГҐГ­ГЁГї
                                 </span>
                             </div>
                             
@@ -293,47 +293,47 @@
                         </div>
                     </article>
 
-                    <!-- Пример истории 3 -->
-                    <article class="story-card" data-year="2010" data-role="parent" data-kindergarten="Берёзка">
+                    <!-- ГЏГ°ГЁГ¬ГҐГ° ГЁГ±ГІГ®Г°ГЁГЁ 3 -->
+                    <article class="story-card" data-year="2010" data-role="parent" data-kindergarten="ГЃГҐГ°ВёГ§ГЄГ ">
                         <div class="story-badge">
                             <span class="badge year-badge">2010</span>
                             <span class="badge role-badge">
-                                <i class="fas fa-user-friends"></i> Родитель
+                                <i class="fas fa-user-friends"></i> ГђГ®Г¤ГЁГІГҐГ«Гј
                             </span>
                         </div>
                         
                         <div class="story-header">
                             <div class="author-avatar">
-                                <img src="../images/users/user3.jpg" alt="Анна Васильева">
+                                <img src="../images/users/user3.jpg" alt="ГЂГ­Г­Г  Г‚Г Г±ГЁГ«ГјГҐГўГ ">
                             </div>
                             <div class="author-info">
-                                <h3 class="author-name">Анна Васильева</h3>
+                                <h3 class="author-name">ГЂГ­Г­Г  Г‚Г Г±ГЁГ«ГјГҐГўГ </h3>
                                 <span class="author-role">
-                                    <i class="fas fa-user-friends"></i> Родитель
+                                    <i class="fas fa-user-friends"></i> ГђГ®Г¤ГЁГІГҐГ«Гј
                                 </span>
                                 <span class="story-kindergarten">
-                                    <i class="fas fa-school"></i> Д/с "Берёзка", с. Нижний Бестях
+                                    <i class="fas fa-school"></i> Г„/Г± "ГЃГҐГ°ВёГ§ГЄГ ", Г±. ГЌГЁГ¦Г­ГЁГ© ГЃГҐГ±ГІГїГµ
                                 </span>
                             </div>
                         </div>
                         
                         <div class="story-content">
-                            <p>Моя дочь пошла в садик в 2010 году. Помню её первые дни: как она плакала утром и как радостно бежала вечером показывать, что сделала на занятиях. Особенно запомнился проект "Моя семья" - дети создавали генеалогическое древо...</p>
+                            <p>ГЊГ®Гї Г¤Г®Г·Гј ГЇГ®ГёГ«Г  Гў Г±Г Г¤ГЁГЄ Гў 2010 ГЈГ®Г¤Гі. ГЏГ®Г¬Г­Гѕ ГҐВё ГЇГҐГ°ГўГ»ГҐ Г¤Г­ГЁ: ГЄГ ГЄ Г®Г­Г  ГЇГ«Г ГЄГ Г«Г  ГіГІГ°Г®Г¬ ГЁ ГЄГ ГЄ Г°Г Г¤Г®Г±ГІГ­Г® ГЎГҐГ¦Г Г«Г  ГўГҐГ·ГҐГ°Г®Г¬ ГЇГ®ГЄГ Г§Г»ГўГ ГІГј, Г·ГІГ® Г±Г¤ГҐГ«Г Г«Г  Г­Г  Г§Г Г­ГїГІГЁГїГµ. ГЋГ±Г®ГЎГҐГ­Г­Г® Г§Г ГЇГ®Г¬Г­ГЁГ«Г±Гї ГЇГ°Г®ГҐГЄГІ "ГЊГ®Гї Г±ГҐГ¬ГјГї" - Г¤ГҐГІГЁ Г±Г®Г§Г¤Г ГўГ Г«ГЁ ГЈГҐГ­ГҐГ Г«Г®ГЈГЁГ·ГҐГ±ГЄГ®ГҐ Г¤Г°ГҐГўГ®...</p>
                             
                             <div class="story-tags">
-                                <span class="tag">первый день</span>
-                                <span class="tag">адаптация</span>
-                                <span class="tag">семейный проект</span>
+                                <span class="tag">ГЇГҐГ°ГўГ»Г© Г¤ГҐГ­Гј</span>
+                                <span class="tag">Г Г¤Г ГЇГІГ Г¶ГЁГї</span>
+                                <span class="tag">Г±ГҐГ¬ГҐГ©Г­Г»Г© ГЇГ°Г®ГҐГЄГІ</span>
                             </div>
                         </div>
                         
                         <div class="story-footer">
                             <div class="story-meta">
                                 <span class="story-date">
-                                    <i class="far fa-calendar"></i> 10 июля 2023
+                                    <i class="far fa-calendar"></i> 10 ГЁГѕГ«Гї 2023
                                 </span>
                                 <span class="story-reading-time">
-                                    <i class="far fa-clock"></i> 2 мин чтения
+                                    <i class="far fa-clock"></i> 2 Г¬ГЁГ­ Г·ГІГҐГ­ГЁГї
                                 </span>
                             </div>
                             
@@ -351,45 +351,45 @@
                         </div>
                     </article>
 
-                    <!-- Пример истории 4 -->
-                    <article class="story-card" data-year="1982" data-role="graduate" data-kindergarten="Колокольчик">
+                    <!-- ГЏГ°ГЁГ¬ГҐГ° ГЁГ±ГІГ®Г°ГЁГЁ 4 -->
+                    <article class="story-card" data-year="1982" data-role="graduate" data-kindergarten="ГЉГ®Г«Г®ГЄГ®Г«ГјГ·ГЁГЄ">
                         <div class="story-badge">
                             <span class="badge year-badge">1982</span>
                             <span class="badge vintage-badge">
-                                <i class="fas fa-history"></i> Винтаж
+                                <i class="fas fa-history"></i> Г‚ГЁГ­ГІГ Г¦
                             </span>
                         </div>
                         
                         <div class="story-header">
                             <div class="author-avatar">
-                                <div class="avatar-initials">СН</div>
+                                <div class="avatar-initials">Г‘ГЌ</div>
                             </div>
                             <div class="author-info">
-                                <h3 class="author-name">Сергей Николаев</h3>
+                                <h3 class="author-name">Г‘ГҐГ°ГЈГҐГ© ГЌГЁГЄГ®Г«Г ГҐГў</h3>
                                 <span class="author-role">
-                                    <i class="fas fa-graduation-cap"></i> Выпускник
+                                    <i class="fas fa-graduation-cap"></i> Г‚Г»ГЇГіГ±ГЄГ­ГЁГЄ
                                 </span>
                                 <span class="story-kindergarten">
-                                    <i class="fas fa-school"></i> Д/с "Колокольчик", с. Нерюктяйинск
+                                    <i class="fas fa-school"></i> Г„/Г± "ГЉГ®Г«Г®ГЄГ®Г«ГјГ·ГЁГЄ", Г±. ГЌГҐГ°ГѕГЄГІГїГ©ГЁГ­Г±ГЄ
                                 </span>
                             </div>
                         </div>
                         
                         <div class="story-content">
-                            <p>В 1982 году в нашем садике ещё не было компьютеров, но было много интересных занятий. Помню, как мы делали поделки из природных материалов, собирали гербарий, ходили на экскурсии в лес. Особенно любили занятия по лепке из глины...</p>
+                            <p>Г‚ 1982 ГЈГ®Г¤Гі Гў Г­Г ГёГҐГ¬ Г±Г Г¤ГЁГЄГҐ ГҐГ№Вё Г­ГҐ ГЎГ»Г«Г® ГЄГ®Г¬ГЇГјГѕГІГҐГ°Г®Гў, Г­Г® ГЎГ»Г«Г® Г¬Г­Г®ГЈГ® ГЁГ­ГІГҐГ°ГҐГ±Г­Г»Гµ Г§Г Г­ГїГІГЁГ©. ГЏГ®Г¬Г­Гѕ, ГЄГ ГЄ Г¬Г» Г¤ГҐГ«Г Г«ГЁ ГЇГ®Г¤ГҐГ«ГЄГЁ ГЁГ§ ГЇГ°ГЁГ°Г®Г¤Г­Г»Гµ Г¬Г ГІГҐГ°ГЁГ Г«Г®Гў, Г±Г®ГЎГЁГ°Г Г«ГЁ ГЈГҐГ°ГЎГ Г°ГЁГ©, ГµГ®Г¤ГЁГ«ГЁ Г­Г  ГЅГЄГ±ГЄГіГ°Г±ГЁГЁ Гў Г«ГҐГ±. ГЋГ±Г®ГЎГҐГ­Г­Г® Г«ГѕГЎГЁГ«ГЁ Г§Г Г­ГїГІГЁГї ГЇГ® Г«ГҐГЇГЄГҐ ГЁГ§ ГЈГ«ГЁГ­Г»...</p>
                             
                             <div class="story-photos">
-                                <img src="../images/stories/1982-crafts.jpg" alt="Поделки 1982 года" class="story-photo">
+                                <img src="../images/stories/1982-crafts.jpg" alt="ГЏГ®Г¤ГҐГ«ГЄГЁ 1982 ГЈГ®Г¤Г " class="story-photo">
                             </div>
                         </div>
                         
                         <div class="story-footer">
                             <div class="story-meta">
                                 <span class="story-date">
-                                    <i class="far fa-calendar"></i> 5 августа 2023
+                                    <i class="far fa-calendar"></i> 5 Г ГўГЈГіГ±ГІГ  2023
                                 </span>
                                 <span class="story-reading-time">
-                                    <i class="far fa-clock"></i> 4 мин чтения
+                                    <i class="far fa-clock"></i> 4 Г¬ГЁГ­ Г·ГІГҐГ­ГЁГї
                                 </span>
                             </div>
                             
@@ -407,47 +407,47 @@
                         </div>
                     </article>
 
-                    <!-- Пример истории 5 -->
-                    <article class="story-card" data-year="2022" data-role="parent" data-kindergarten="Умка">
+                    <!-- ГЏГ°ГЁГ¬ГҐГ° ГЁГ±ГІГ®Г°ГЁГЁ 5 -->
+                    <article class="story-card" data-year="2022" data-role="parent" data-kindergarten="Г“Г¬ГЄГ ">
                         <div class="story-badge">
                             <span class="badge year-badge">2022</span>
                             <span class="badge role-badge">
-                                <i class="fas fa-user-friends"></i> Родитель
+                                <i class="fas fa-user-friends"></i> ГђГ®Г¤ГЁГІГҐГ«Гј
                             </span>
                         </div>
                         
                         <div class="story-header">
                             <div class="author-avatar">
-                                <img src="../images/users/user5.jpg" alt="Ольга Петрова">
+                                <img src="../images/users/user5.jpg" alt="ГЋГ«ГјГЈГ  ГЏГҐГІГ°Г®ГўГ ">
                             </div>
                             <div class="author-info">
-                                <h3 class="author-name">Ольга Петрова</h3>
+                                <h3 class="author-name">ГЋГ«ГјГЈГ  ГЏГҐГІГ°Г®ГўГ </h3>
                                 <span class="author-role">
-                                    <i class="fas fa-user-friends"></i> Родитель
+                                    <i class="fas fa-user-friends"></i> ГђГ®Г¤ГЁГІГҐГ«Гј
                                 </span>
                                 <span class="story-kindergarten">
-                                    <i class="fas fa-school"></i> Д/с "Умка", с. Майя
+                                    <i class="fas fa-school"></i> Г„/Г± "Г“Г¬ГЄГ ", Г±. ГЊГ Г©Гї
                                 </span>
                             </div>
                         </div>
                         
                         <div class="story-content">
-                            <p>Современные детские сады сильно изменились! У моего сына в садике есть интерактивная доска, планшеты для образовательных игр, робототехника. Но самое главное - сохранилось теплое отношение воспитателей к детям...</p>
+                            <p>Г‘Г®ГўГ°ГҐГ¬ГҐГ­Г­Г»ГҐ Г¤ГҐГІГ±ГЄГЁГҐ Г±Г Г¤Г» Г±ГЁГ«ГјГ­Г® ГЁГ§Г¬ГҐГ­ГЁГ«ГЁГ±Гј! Г“ Г¬Г®ГҐГЈГ® Г±Г»Г­Г  Гў Г±Г Г¤ГЁГЄГҐ ГҐГ±ГІГј ГЁГ­ГІГҐГ°Г ГЄГІГЁГўГ­Г Гї Г¤Г®Г±ГЄГ , ГЇГ«Г Г­ГёГҐГІГ» Г¤Г«Гї Г®ГЎГ°Г Г§Г®ГўГ ГІГҐГ«ГјГ­Г»Гµ ГЁГЈГ°, Г°Г®ГЎГ®ГІГ®ГІГҐГµГ­ГЁГЄГ . ГЌГ® Г±Г Г¬Г®ГҐ ГЈГ«Г ГўГ­Г®ГҐ - Г±Г®ГµГ°Г Г­ГЁГ«Г®Г±Гј ГІГҐГЇГ«Г®ГҐ Г®ГІГ­Г®ГёГҐГ­ГЁГҐ ГўГ®Г±ГЇГЁГІГ ГІГҐГ«ГҐГ© ГЄ Г¤ГҐГІГїГ¬...</p>
                             
                             <div class="story-tags">
-                                <span class="tag">цифровизация</span>
-                                <span class="tag">робототехника</span>
-                                <span class="tag">современное образование</span>
+                                <span class="tag">Г¶ГЁГґГ°Г®ГўГЁГ§Г Г¶ГЁГї</span>
+                                <span class="tag">Г°Г®ГЎГ®ГІГ®ГІГҐГµГ­ГЁГЄГ </span>
+                                <span class="tag">Г±Г®ГўГ°ГҐГ¬ГҐГ­Г­Г®ГҐ Г®ГЎГ°Г Г§Г®ГўГ Г­ГЁГҐ</span>
                             </div>
                         </div>
                         
                         <div class="story-footer">
                             <div class="story-meta">
                                 <span class="story-date">
-                                    <i class="far fa-calendar"></i> 12 сентября 2023
+                                    <i class="far fa-calendar"></i> 12 Г±ГҐГ­ГІГїГЎГ°Гї 2023
                                 </span>
                                 <span class="story-reading-time">
-                                    <i class="far fa-clock"></i> 2 мин чтения
+                                    <i class="far fa-clock"></i> 2 Г¬ГЁГ­ Г·ГІГҐГ­ГЁГї
                                 </span>
                             </div>
                             
@@ -465,52 +465,52 @@
                         </div>
                     </article>
 
-                    <!-- Пример истории 6 -->
-                    <article class="story-card featured" data-year="1970" data-role="veteran" data-kindergarten="Ромашка">
+                    <!-- ГЏГ°ГЁГ¬ГҐГ° ГЁГ±ГІГ®Г°ГЁГЁ 6 -->
+                    <article class="story-card featured" data-year="1970" data-role="veteran" data-kindergarten="ГђГ®Г¬Г ГёГЄГ ">
                         <div class="story-badge">
                             <span class="badge featured-badge">
-                                <i class="fas fa-star"></i> Избранное
+                                <i class="fas fa-star"></i> Г€Г§ГЎГ°Г Г­Г­Г®ГҐ
                             </span>
                             <span class="badge year-badge">1970</span>
                             <span class="badge veteran-badge">
-                                <i class="fas fa-award"></i> Ветеран
+                                <i class="fas fa-award"></i> Г‚ГҐГІГҐГ°Г Г­
                             </span>
                         </div>
                         
                         <div class="story-header">
                             <div class="author-avatar">
-                                <div class="avatar-initials">ВК</div>
+                                <div class="avatar-initials">Г‚ГЉ</div>
                             </div>
                             <div class="author-info">
-                                <h3 class="author-name">Валентина Кузьминична</h3>
+                                <h3 class="author-name">Г‚Г Г«ГҐГ­ГІГЁГ­Г  ГЉГіГ§ГјГ¬ГЁГ­ГЁГ·Г­Г </h3>
                                 <span class="author-role">
-                                    <i class="fas fa-award"></i> Ветеран образования
+                                    <i class="fas fa-award"></i> Г‚ГҐГІГҐГ°Г Г­ Г®ГЎГ°Г Г§Г®ГўГ Г­ГЁГї
                                 </span>
                                 <span class="story-kindergarten">
-                                    <i class="fas fa-school"></i> Д/с "Ромашка", с. Тюнгюлю
+                                    <i class="fas fa-school"></i> Г„/Г± "ГђГ®Г¬Г ГёГЄГ ", Г±. Г’ГѕГ­ГЈГѕГ«Гѕ
                                 </span>
                             </div>
                         </div>
                         
                         <div class="story-content">
-                            <p>Начала работать воспитателем в 1970 году. Зарплата была 90 рублей, но любви к детям - бесконечно. Помню, как зимой топили печку, дети сидели в валенках, но все равно пели песни и радовались жизни...</p>
+                            <p>ГЌГ Г·Г Г«Г  Г°Г ГЎГ®ГІГ ГІГј ГўГ®Г±ГЇГЁГІГ ГІГҐГ«ГҐГ¬ Гў 1970 ГЈГ®Г¤Гі. Г‡Г Г°ГЇГ«Г ГІГ  ГЎГ»Г«Г  90 Г°ГіГЎГ«ГҐГ©, Г­Г® Г«ГѕГЎГўГЁ ГЄ Г¤ГҐГІГїГ¬ - ГЎГҐГ±ГЄГ®Г­ГҐГ·Г­Г®. ГЏГ®Г¬Г­Гѕ, ГЄГ ГЄ Г§ГЁГ¬Г®Г© ГІГ®ГЇГЁГ«ГЁ ГЇГҐГ·ГЄГі, Г¤ГҐГІГЁ Г±ГЁГ¤ГҐГ«ГЁ Гў ГўГ Г«ГҐГ­ГЄГ Гµ, Г­Г® ГўГ±ГҐ Г°Г ГўГ­Г® ГЇГҐГ«ГЁ ГЇГҐГ±Г­ГЁ ГЁ Г°Г Г¤Г®ГўГ Г«ГЁГ±Гј Г¦ГЁГ§Г­ГЁ...</p>
                             
                             <blockquote class="story-quote">
-                                "За 50 лет работы я поняла: самое важное в воспитании - это любовь и терпение."
+                                "Г‡Г  50 Г«ГҐГІ Г°Г ГЎГ®ГІГ» Гї ГЇГ®Г­ГїГ«Г : Г±Г Г¬Г®ГҐ ГўГ Г¦Г­Г®ГҐ Гў ГўГ®Г±ГЇГЁГІГ Г­ГЁГЁ - ГЅГІГ® Г«ГѕГЎГ®ГўГј ГЁ ГІГҐГ°ГЇГҐГ­ГЁГҐ."
                             </blockquote>
                             
                             <div class="story-photos">
-                                <img src="../images/stories/1970-kindergarten.jpg" alt="Детский сад в 1970 году" class="story-photo">
+                                <img src="../images/stories/1970-kindergarten.jpg" alt="Г„ГҐГІГ±ГЄГЁГ© Г±Г Г¤ Гў 1970 ГЈГ®Г¤Гі" class="story-photo">
                             </div>
                         </div>
                         
                         <div class="story-footer">
                             <div class="story-meta">
                                 <span class="story-date">
-                                    <i class="far fa-calendar"></i> 1 октября 2023
+                                    <i class="far fa-calendar"></i> 1 Г®ГЄГІГїГЎГ°Гї 2023
                                 </span>
                                 <span class="story-reading-time">
-                                    <i class="far fa-clock"></i> 5 мин чтения
+                                    <i class="far fa-clock"></i> 5 Г¬ГЁГ­ Г·ГІГҐГ­ГЁГї
                                 </span>
                             </div>
                             
@@ -529,10 +529,10 @@
                     </article>
                 </div>
 
-                <!-- Пагинация -->
+                <!-- ГЏГ ГЈГЁГ­Г Г¶ГЁГї -->
                 <div class="pagination">
                     <button class="pagination-btn prev-btn" disabled>
-                        <i class="fas fa-chevron-left"></i> Назад
+                        <i class="fas fa-chevron-left"></i> ГЌГ Г§Г Г¤
                     </button>
                     
                     <div class="page-numbers">
@@ -544,170 +544,170 @@
                     </div>
                     
                     <button class="pagination-btn next-btn">
-                        Вперед <i class="fas fa-chevron-right"></i>
+                        Г‚ГЇГҐГ°ГҐГ¤ <i class="fas fa-chevron-right"></i>
                     </button>
                     
                     <div class="page-info">
-                        Показано <span id="shown-stories">6</span> из <span id="total-stories-count">128</span> историй
+                        ГЏГ®ГЄГ Г§Г Г­Г® <span id="shown-stories">6</span> ГЁГ§ <span id="total-stories-count">128</span> ГЁГ±ГІГ®Г°ГЁГ©
                     </div>
                 </div>
             </section>
 
-            <!-- Боковая панель с популярными тегами -->
+            <!-- ГЃГ®ГЄГ®ГўГ Гї ГЇГ Г­ГҐГ«Гј Г± ГЇГ®ГЇГіГ«ГїГ°Г­Г»Г¬ГЁ ГІГҐГЈГ Г¬ГЁ -->
             <aside class="stories-sidebar">
                 <div class="sidebar-section">
-                    <h3><i class="fas fa-tags"></i> Популярные теги</h3>
+                    <h3><i class="fas fa-tags"></i> ГЏГ®ГЇГіГ«ГїГ°Г­Г»ГҐ ГІГҐГЈГЁ</h3>
                     <div class="tags-cloud">
-                        <a href="#" class="tag-cloud" data-tag="первый день">первый день</a>
-                        <a href="#" class="tag-cloud" data-tag="выпускной">выпускной</a>
-                        <a href="#" class="tag-cloud" data-tag="воспитатели">воспитатели</a>
-                        <a href="#" class="tag-cloud" data-tag="игры">игры</a>
-                        <a href="#" class="tag-cloud" data-tag="праздники">праздники</a>
-                        <a href="#" class="tag-cloud" data-tag="экскурсии">экскурсии</a>
-                        <a href="#" class="tag-cloud" data-tag="поделки">поделки</a>
-                        <a href="#" class="tag-cloud" data-tag="дружба">дружба</a>
-                        <a href="#" class="tag-cloud" data-tag="утренники">утренники</a>
-                        <a href="#" class="tag-cloud" data-tag="зимние забавы">зимние забавы</a>
-                        <a href="#" class="tag-cloud" data-tag="летний лагерь">летний лагерь</a>
-                        <a href="#" class="tag-cloud" data-tag="родители">родители</a>
+                        <a href="#" class="tag-cloud" data-tag="ГЇГҐГ°ГўГ»Г© Г¤ГҐГ­Гј">ГЇГҐГ°ГўГ»Г© Г¤ГҐГ­Гј</a>
+                        <a href="#" class="tag-cloud" data-tag="ГўГ»ГЇГіГ±ГЄГ­Г®Г©">ГўГ»ГЇГіГ±ГЄГ­Г®Г©</a>
+                        <a href="#" class="tag-cloud" data-tag="ГўГ®Г±ГЇГЁГІГ ГІГҐГ«ГЁ">ГўГ®Г±ГЇГЁГІГ ГІГҐГ«ГЁ</a>
+                        <a href="#" class="tag-cloud" data-tag="ГЁГЈГ°Г»">ГЁГЈГ°Г»</a>
+                        <a href="#" class="tag-cloud" data-tag="ГЇГ°Г Г§Г¤Г­ГЁГЄГЁ">ГЇГ°Г Г§Г¤Г­ГЁГЄГЁ</a>
+                        <a href="#" class="tag-cloud" data-tag="ГЅГЄГ±ГЄГіГ°Г±ГЁГЁ">ГЅГЄГ±ГЄГіГ°Г±ГЁГЁ</a>
+                        <a href="#" class="tag-cloud" data-tag="ГЇГ®Г¤ГҐГ«ГЄГЁ">ГЇГ®Г¤ГҐГ«ГЄГЁ</a>
+                        <a href="#" class="tag-cloud" data-tag="Г¤Г°ГіГ¦ГЎГ ">Г¤Г°ГіГ¦ГЎГ </a>
+                        <a href="#" class="tag-cloud" data-tag="ГіГІГ°ГҐГ­Г­ГЁГЄГЁ">ГіГІГ°ГҐГ­Г­ГЁГЄГЁ</a>
+                        <a href="#" class="tag-cloud" data-tag="Г§ГЁГ¬Г­ГЁГҐ Г§Г ГЎГ ГўГ»">Г§ГЁГ¬Г­ГЁГҐ Г§Г ГЎГ ГўГ»</a>
+                        <a href="#" class="tag-cloud" data-tag="Г«ГҐГІГ­ГЁГ© Г«Г ГЈГҐГ°Гј">Г«ГҐГІГ­ГЁГ© Г«Г ГЈГҐГ°Гј</a>
+                        <a href="#" class="tag-cloud" data-tag="Г°Г®Г¤ГЁГІГҐГ«ГЁ">Г°Г®Г¤ГЁГІГҐГ«ГЁ</a>
                     </div>
                 </div>
 
                 <div class="sidebar-section">
-                    <h3><i class="fas fa-trophy"></i> Самые активные авторы</h3>
+                    <h3><i class="fas fa-trophy"></i> Г‘Г Г¬Г»ГҐ Г ГЄГІГЁГўГ­Г»ГҐ Г ГўГІГ®Г°Г»</h3>
                     <div class="top-authors">
                         <div class="author-item">
                             <div class="author-avatar small">
-                                <img src="../images/users/user1.jpg" alt="Мария Иванова">
+                                <img src="../images/users/user1.jpg" alt="ГЊГ Г°ГЁГї Г€ГўГ Г­Г®ГўГ ">
                             </div>
                             <div class="author-details">
-                                <span class="author-name">Мария Иванова</span>
-                                <span class="author-stats">8 историй</span>
+                                <span class="author-name">ГЊГ Г°ГЁГї Г€ГўГ Г­Г®ГўГ </span>
+                                <span class="author-stats">8 ГЁГ±ГІГ®Г°ГЁГ©</span>
                             </div>
                         </div>
                         <div class="author-item">
                             <div class="author-avatar small">
-                                <div class="avatar-initials">ПС</div>
+                                <div class="avatar-initials">ГЏГ‘</div>
                             </div>
                             <div class="author-details">
-                                <span class="author-name">Петр Семенов</span>
-                                <span class="author-stats">6 историй</span>
+                                <span class="author-name">ГЏГҐГІГ° Г‘ГҐГ¬ГҐГ­Г®Гў</span>
+                                <span class="author-stats">6 ГЁГ±ГІГ®Г°ГЁГ©</span>
                             </div>
                         </div>
                         <div class="author-item">
                             <div class="author-avatar small">
-                                <div class="avatar-initials">ВК</div>
+                                <div class="avatar-initials">Г‚ГЉ</div>
                             </div>
                             <div class="author-details">
-                                <span class="author-name">Валентина К.</span>
-                                <span class="author-stats">5 историй</span>
+                                <span class="author-name">Г‚Г Г«ГҐГ­ГІГЁГ­Г  ГЉ.</span>
+                                <span class="author-stats">5 ГЁГ±ГІГ®Г°ГЁГ©</span>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="sidebar-section">
-                    <h3><i class="fas fa-school"></i> Популярные детские сады</h3>
+                    <h3><i class="fas fa-school"></i> ГЏГ®ГЇГіГ«ГїГ°Г­Г»ГҐ Г¤ГҐГІГ±ГЄГЁГҐ Г±Г Г¤Г»</h3>
                     <div class="top-kindergartens">
                         <div class="kindergarten-item">
                             <i class="fas fa-school"></i>
-                            <span class="kindergarten-name">"Солнышко", Майя</span>
-                            <span class="kindergarten-stats">24 истории</span>
+                            <span class="kindergarten-name">"Г‘Г®Г«Г­Г»ГёГЄГ®", ГЊГ Г©Гї</span>
+                            <span class="kindergarten-stats">24 ГЁГ±ГІГ®Г°ГЁГЁ</span>
                         </div>
                         <div class="kindergarten-item">
                             <i class="fas fa-school"></i>
-                            <span class="kindergarten-name">"Чэчир", Майя</span>
-                            <span class="kindergarten-stats">18 историй</span>
+                            <span class="kindergarten-name">"Г—ГЅГ·ГЁГ°", ГЊГ Г©Гї</span>
+                            <span class="kindergarten-stats">18 ГЁГ±ГІГ®Г°ГЁГ©</span>
                         </div>
                         <div class="kindergarten-item">
                             <i class="fas fa-school"></i>
-                            <span class="kindergarten-name">"Берёзка", Нижний Бестях</span>
-                            <span class="kindergarten-stats">15 историй</span>
+                            <span class="kindergarten-name">"ГЃГҐГ°ВёГ§ГЄГ ", ГЌГЁГ¦Г­ГЁГ© ГЃГҐГ±ГІГїГµ</span>
+                            <span class="kindergarten-stats">15 ГЁГ±ГІГ®Г°ГЁГ©</span>
                         </div>
                     </div>
                 </div>
 
                 <div class="sidebar-section call-to-action">
-                    <h3><i class="fas fa-pen"></i> Ваша история важна!</h3>
-                    <p>Поделитесь своими воспоминаниями о детском саде. Ваша история поможет сохранить память для будущих поколений.</p>
+                    <h3><i class="fas fa-pen"></i> Г‚Г ГёГ  ГЁГ±ГІГ®Г°ГЁГї ГўГ Г¦Г­Г !</h3>
+                    <p>ГЏГ®Г¤ГҐГ«ГЁГІГҐГ±Гј Г±ГўГ®ГЁГ¬ГЁ ГўГ®Г±ГЇГ®Г¬ГЁГ­Г Г­ГЁГїГ¬ГЁ Г® Г¤ГҐГІГ±ГЄГ®Г¬ Г±Г Г¤ГҐ. Г‚Г ГёГ  ГЁГ±ГІГ®Г°ГЁГї ГЇГ®Г¬Г®Г¦ГҐГІ Г±Г®ГµГ°Г Г­ГЁГІГј ГЇГ Г¬ГїГІГј Г¤Г«Гї ГЎГіГ¤ГіГ№ГЁГµ ГЇГ®ГЄГ®Г«ГҐГ­ГЁГ©.</p>
                     <a href="../pages/add-story.html" class="btn btn-primary btn-block">
-                        <i class="fas fa-plus-circle"></i> Написать историю
+                        <i class="fas fa-plus-circle"></i> ГЌГ ГЇГЁГ±Г ГІГј ГЁГ±ГІГ®Г°ГЁГѕ
                     </a>
                 </div>
             </aside>
         </main>
 
-        <!-- Модальное окно для детального просмотра истории -->
+        <!-- ГЊГ®Г¤Г Г«ГјГ­Г®ГҐ Г®ГЄГ­Г® Г¤Г«Гї Г¤ГҐГІГ Г«ГјГ­Г®ГЈГ® ГЇГ°Г®Г±Г¬Г®ГІГ°Г  ГЁГ±ГІГ®Г°ГЁГЁ -->
         <div id="story-modal" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h2 id="modal-story-title">Детали истории</h2>
+                    <h2 id="modal-story-title">Г„ГҐГІГ Г«ГЁ ГЁГ±ГІГ®Г°ГЁГЁ</h2>
                     <button class="modal-close">&times;</button>
                 </div>
                 <div class="modal-body" id="modal-story-content">
-                    <!-- Контент будет загружаться динамически -->
+                    <!-- ГЉГ®Г­ГІГҐГ­ГІ ГЎГіГ¤ГҐГІ Г§Г ГЈГ°ГіГ¦Г ГІГјГ±Гї Г¤ГЁГ­Г Г¬ГЁГ·ГҐГ±ГЄГЁ -->
                 </div>
             </div>
         </div>
 
-        <!-- Футер -->
+        <!-- Г”ГіГІГҐГ° -->
         <footer class="app-footer">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h4>Digital-талисман</h4>
-                    <p>Собираем и сохраняем историю дошкольного образования Мегино-Кангаласского улуса</p>
+                    <h4>Digital-ГІГ Г«ГЁГ±Г¬Г Г­</h4>
+                    <p>Г‘Г®ГЎГЁГ°Г ГҐГ¬ ГЁ Г±Г®ГµГ°Г Г­ГїГҐГ¬ ГЁГ±ГІГ®Г°ГЁГѕ Г¤Г®ГёГЄГ®Г«ГјГ­Г®ГЈГ® Г®ГЎГ°Г Г§Г®ГўГ Г­ГЁГї ГЊГҐГЈГЁГ­Г®-ГЉГ Г­ГЈГ Г«Г Г±Г±ГЄГ®ГЈГ® ГіГ«ГіГ±Г </p>
                 </div>
                 <div class="footer-section">
-                    <h4>Навигация</h4>
-                    <a href="../index.html">Главная</a>
-                    <a href="../pages/history.html">История</a>
-                    <a href="../pages/stories.html">Истории</a>
-                    <a href="../pages/benefits.html">Польза образования</a>
+                    <h4>ГЌГ ГўГЁГЈГ Г¶ГЁГї</h4>
+                    <a href="../index.html">ГѓГ«Г ГўГ­Г Гї</a>
+                    <a href="../pages/history.html">Г€Г±ГІГ®Г°ГЁГї</a>
+                    <a href="../pages/stories.html">Г€Г±ГІГ®Г°ГЁГЁ</a>
+                    <a href="../pages/benefits.html">ГЏГ®Г«ГјГ§Г  Г®ГЎГ°Г Г§Г®ГўГ Г­ГЁГї</a>
                 </div>
                 <div class="footer-section">
-                    <h4>Участие</h4>
-                    <a href="../pages/add-story.html">Добавить историю</a>
-                    <a href="../pages/contacts.html">Контакты</a>
-                    <a href="../pages/about.html">О проекте</a>
+                    <h4>Г“Г·Г Г±ГІГЁГҐ</h4>
+                    <a href="../pages/add-story.html">Г„Г®ГЎГ ГўГЁГІГј ГЁГ±ГІГ®Г°ГЁГѕ</a>
+                    <a href="../pages/contacts.html">ГЉГ®Г­ГІГ ГЄГІГ»</a>
+                    <a href="../pages/about.html">ГЋ ГЇГ°Г®ГҐГЄГІГҐ</a>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>© 2024 Digital-талисман. 100 лет дошкольного образования Мегино-Кангаласского улуса</p>
-                <p>Республика Саха (Якутия)</p>
+                <p>В© 2024 Digital-ГІГ Г«ГЁГ±Г¬Г Г­. 100 Г«ГҐГІ Г¤Г®ГёГЄГ®Г«ГјГ­Г®ГЈГ® Г®ГЎГ°Г Г§Г®ГўГ Г­ГЁГї ГЊГҐГЈГЁГ­Г®-ГЉГ Г­ГЈГ Г«Г Г±Г±ГЄГ®ГЈГ® ГіГ«ГіГ±Г </p>
+                <p>ГђГҐГ±ГЇГіГЎГ«ГЁГЄГ  Г‘Г ГµГ  (ГџГЄГіГІГЁГї)</p>
             </div>
         </footer>
     </div>
 
-    <!-- Скрипты -->
+    <!-- Г‘ГЄГ°ГЁГЇГІГ» -->
     <script src="../js/mascot.js"></script>
     <script src="../js/stories-manager.js"></script>
     <script>
-        // Инициализация при загрузке страницы
+        // Г€Г­ГЁГ¶ГЁГ Г«ГЁГ§Г Г¶ГЁГї ГЇГ°ГЁ Г§Г ГЈГ°ГіГ§ГЄГҐ Г±ГІГ°Г Г­ГЁГ¶Г»
         document.addEventListener('DOMContentLoaded', function() {
-            // Инициализация менеджера историй
+            // Г€Г­ГЁГ¶ГЁГ Г«ГЁГ§Г Г¶ГЁГї Г¬ГҐГ­ГҐГ¤Г¦ГҐГ°Г  ГЁГ±ГІГ®Г°ГЁГ©
             if (typeof StoriesManager !== 'undefined') {
                 new StoriesManager();
             }
             
-            // Инициализация талисмана
+            // Г€Г­ГЁГ¶ГЁГ Г«ГЁГ§Г Г¶ГЁГї ГІГ Г«ГЁГ±Г¬Г Г­Г 
             if (typeof DigitalMascot !== 'undefined') {
                 new DigitalMascot();
             }
             
-            // Навигация на страницу добавления истории
+            // ГЌГ ГўГЁГЈГ Г¶ГЁГї Г­Г  Г±ГІГ°Г Г­ГЁГ¶Гі Г¤Г®ГЎГ ГўГ«ГҐГ­ГЁГї ГЁГ±ГІГ®Г°ГЁГЁ
             document.getElementById('add-story-btn')?.addEventListener('click', function() {
                 window.location.href = '../pages/add-story.html';
             });
             
-            // Обновление статистики
+            // ГЋГЎГ­Г®ГўГ«ГҐГ­ГЁГҐ Г±ГІГ ГІГЁГ±ГІГЁГЄГЁ
             updateStatistics();
             
-            // Загрузка историй
+            // Г‡Г ГЈГ°ГіГ§ГЄГ  ГЁГ±ГІГ®Г°ГЁГ©
             loadStories();
         });
         
         function updateStatistics() {
-            // Здесь будет загрузка реальной статистики
+            // Г‡Г¤ГҐГ±Гј ГЎГіГ¤ГҐГІ Г§Г ГЈГ°ГіГ§ГЄГ  Г°ГҐГ Г«ГјГ­Г®Г© Г±ГІГ ГІГЁГ±ГІГЁГЄГЁ
             document.getElementById('total-stories').textContent = '128';
             document.getElementById('total-authors').textContent = '89';
             document.getElementById('total-kindergartens').textContent = '23';
@@ -715,8 +715,8 @@
         }
         
         function loadStories() {
-            // Здесь будет загрузка историй из API или локального хранилища
-            console.log('Загрузка историй...');
+            // Г‡Г¤ГҐГ±Гј ГЎГіГ¤ГҐГІ Г§Г ГЈГ°ГіГ§ГЄГ  ГЁГ±ГІГ®Г°ГЁГ© ГЁГ§ API ГЁГ«ГЁ Г«Г®ГЄГ Г«ГјГ­Г®ГЈГ® ГµГ°Г Г­ГЁГ«ГЁГ№Г 
+            console.log('Г‡Г ГЈГ°ГіГ§ГЄГ  ГЁГ±ГІГ®Г°ГЁГ©...');
         }
     </script>
 </body>
