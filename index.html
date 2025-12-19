@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital-талисман: 100 лет дошкольного образования Мегино-Кангаласского улуса</title>
+    <meta name="description" content="Соберем живые истории и теплые воспоминания о дошкольном образовании">
+    
+    <!-- PWA мета-теги -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2c3e50">
+    
+    <!-- Иконки -->
+    <link rel="icon" href="icon/icon-72x72.png">
+    <link rel="apple-touch-icon" href="icon/icon-152x152.png">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mascot.css">
+    
+    <!-- Шрифты -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto+Slab:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Шапка -->
+        <header class="app-header">
+            <div class="header-content">
+                <h1>Digital-талисман</h1>
+                <p>100 лет дошкольного образования Мегино-Кангаласского улуса</p>
+            </div>
+            <div class="header-logo">
+                <img src="images/logo.png" alt="Логотип 100-летия">
+            </div>
+        </header>
+
+        <!-- Контейнер для талисмана -->
+        <div id="mascot-container" class="mascot-container">
+            <div class="mascot" id="digital-mascot">
+                <img src="images/mascot/horse-idle.png" alt="Талисман-конь" id="mascot-image">
+                <div class="speech-bubble" id="mascot-speech">
+                    Привет! Я - талисман 100-летия дошкольного образования. Давай узнаем историю вместе!
+                </div>
+            </div>
+        </div>
+
+        <!-- Основной контент -->
+        <main class="main-content">
+            <section class="hero-section">
+                <h2>Соберем истории поколений</h2>
+                <p class="subtitle">Вместе сохраним теплые воспоминания о детских садах разных лет</p>
+                
+                <div class="cta-buttons">
+                    <a href="pages/history.html" class="btn btn-primary">
+                        📜 Узнать историю
+                    </a>
+                    <a href="pages/stories.html" class="btn btn-secondary">
+                        👥 Читать истории
+                    </a>
+                    <a href="pages/add-story.html" class="btn btn-accent">
+                        ✍️ Добавить историю
+                    </a>
+                </div>
+            </section>
+
+            <section class="features-section">
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3>История развития</h3>
+                    <p>От первых детских садов до современных образовательных центров</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">👨‍👩‍👧‍👦</div>
+                    <h3>Живые воспоминания</h3>
+                    <p>Истории выпускников, родителей и воспитателей</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Польза дошкольного образования</h3>
+                    <p>Почему это важно для развития ребенка</p>
+                </div>
+            </section>
+
+            <section class="quick-stats">
+                <h3>Наша общая история в цифрах:</h3>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number" id="years-count">100</span>
+                        <span class="stat-label">лет истории</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="kindergartens-count">45+</span>
+                        <span class="stat-label">детских садов</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="stories-count">250+</span>
+                        <span class="stat-label">воспоминаний</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Футер -->
+        <footer class="app-footer">
+            <p>© 2024 Digital-талисман. 100 лет дошкольного образования Мегино-Кангаласского улуса</p>
+            <p>Республика Саха (Якутия)</p>
+            <div class="footer-links">
+                <a href="pages/about.html">О проекте</a>
+                <a href="#" id="install-button">Установить приложение</a>
+                <button id="offline-status">Проверить подключение</button>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Скрипты -->
+    <script src="js/app.js"></script>
+    <script src="js/mascot.js"></script>
+    <script src="js/pwa-install.js"></script>
+    
+    <!-- Регистрация Service Worker -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js')
+                    .then(registration => {
+                        console.log('ServiceWorker зарегистрирован');
+                    })
+                    .catch(err => {
+                        console.log('Ошибка регистрации ServiceWorker:', err);
+                    });
+            });
+        }
+    </script>
+</body>
+</html>
